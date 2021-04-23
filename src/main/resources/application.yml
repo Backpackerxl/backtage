@@ -1,0 +1,9 @@
+spring:
+  server:
+    port: 8888
+    context-path: /back
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/book_web_test?useUnicode=true&characterEncoding=UTF-8  
+    username: root
+    password: 945942
